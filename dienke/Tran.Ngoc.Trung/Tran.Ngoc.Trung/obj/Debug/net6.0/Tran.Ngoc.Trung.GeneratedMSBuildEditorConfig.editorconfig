@@ -1,0 +1,48 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Tran.Ngoc.Trung
+build_property.RootNamespace = Tran.Ngoc.Trung
+build_property.ProjectDir = C:\Users\ADMIN\Desktop\tranngoctrung\dienke\Tran.Ngoc.Trung\Tran.Ngoc.Trung\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Desktop\tranngoctrung\dienke\Tran.Ngoc.Trung\Tran.Ngoc.Trung
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ADMIN/Desktop/tranngoctrung/dienke/Tran.Ngoc.Trung/Tran.Ngoc.Trung/Views/DienKe/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbktlXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/tranngoctrung/dienke/Tran.Ngoc.Trung/Tran.Ngoc.Trung/Views/DienKe/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbktlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/tranngoctrung/dienke/Tran.Ngoc.Trung/Tran.Ngoc.Trung/Views/DienKe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbktlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/tranngoctrung/dienke/Tran.Ngoc.Trung/Tran.Ngoc.Trung/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/tranngoctrung/dienke/Tran.Ngoc.Trung/Tran.Ngoc.Trung/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/tranngoctrung/dienke/Tran.Ngoc.Trung/Tran.Ngoc.Trung/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/tranngoctrung/dienke/Tran.Ngoc.Trung/Tran.Ngoc.Trung/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/tranngoctrung/dienke/Tran.Ngoc.Trung/Tran.Ngoc.Trung/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jsz4h1uuqt

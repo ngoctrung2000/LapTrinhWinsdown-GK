@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tran.Ngoc.Trung", "Tran.Ngoc.Trung\Tran.Ngoc.Trung.csproj", "{CF8184BB-327E-4F7E-8E05-573783D9D475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF8184BB-327E-4F7E-8E05-573783D9D475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8184BB-327E-4F7E-8E05-573783D9D475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8184BB-327E-4F7E-8E05-573783D9D475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8184BB-327E-4F7E-8E05-573783D9D475}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB964AEF-344A-4410-8683-1C717C17AE1A}
+	EndGlobalSection
+EndGlobal

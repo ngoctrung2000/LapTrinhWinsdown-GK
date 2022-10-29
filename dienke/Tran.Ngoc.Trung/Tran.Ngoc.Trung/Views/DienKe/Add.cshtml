@@ -1,0 +1,61 @@
+﻿@using System.Collections.Generic
+@using Tran.Ngoc.Trung.EFCore
+
+@model Dienke
+
+@{
+    ViewData["Title"] = "Thêm điện kế";
+    List<Khachhang> khachhangs = (List<Khachhang>) ViewData["KhachHangs"];
+    List<string> err = (List<string>) ViewData["err"];
+}
+
+<h4>Form thêm điện kế</h4>
+<div style="margin-bottom: 1rem">
+    <a asp-action="Index" class="btn btn-danger">Trở về</a>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <div class="text-danger">
+                @if(err != null && err.Any())
+                {
+                    foreach (var item in err)
+                    {
+                        <p>@item</p>
+                    }
+                }
+            </div>
+            <div class="form-group" style="margin-bottom: 1rem">
+                <label asp-for="Madk" class="control-label">Mã điện kế</label>
+                <input asp-for="Madk" class="form-control" />
+            </div>
+            <div class="form-group" style="margin-bottom: 1rem">
+                <label asp-for="Ngaydk" class="control-label">Ngày đăng ký</label>
+                <input asp-for="Ngaydk" class="form-control" type="date"/>
+            </div>
+            <div class="form-group" style="margin-bottom: 1rem">
+                <label asp-for="Makh" class="control-label">Mã khách hàng</label>
+                <select name="Makh">
+                    @foreach (var item in khachhangs)
+                    {
+                        if(item.Makh == Model.Makh)
+                        {
+                            <option selected value="@item.Makh">@item.Makh</option>
+                        }
+                        else
+                        {
+                            <option value="@item.Makh">@item.Makh</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Thêm</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

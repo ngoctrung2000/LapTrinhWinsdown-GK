@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Tran.Ngoc.Trung.EFCore.Dienke>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<p>
+    <a asp-action="Add" class="btn btn-primary">Thêm điện kế</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Mã điện kế
+            </th>
+            <th>
+                Ngày đăng ký
+            </th>
+            <th>
+                Mã khách hàng
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Madk)
+            </td>
+            <td>
+                @(item.Ngaydk.HasValue ? item.Ngaydk.Value.ToString("MM/dd/yyyy") : "")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Makh)
+            </td>
+            <td>
+                <a class="btn btn-danger" href="@Url.Action("Delete", "DienKe", new {madk = item.Madk})">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

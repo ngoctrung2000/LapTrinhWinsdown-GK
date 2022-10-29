@@ -1,0 +1,15 @@
+﻿namespace Tran.Ngoc.Trung.EFCore
+{
+    public partial class Sudungdien
+    {
+        public string Maky { get; set; }
+        public string Madk { get; set; }
+        public int? Chisocu { get; set; }
+        public int? Chisomoi { get; set; }
+        public string Manv { get; set; }
+
+        public virtual Dienke MadkNavigation { get; set; }
+        public virtual Kysudung MakyNavigation { get; set; }
+        public virtual Nhanvien ManvNavigation { get; set; }
+    }
+}
